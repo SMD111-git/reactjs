@@ -1,7 +1,5 @@
 function App() {
-  
-
-  return (
+   return (
     <h1>SMD aur chai | react with vite</h1>
     
   )
