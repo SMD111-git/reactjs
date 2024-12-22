@@ -14,7 +14,7 @@ root.render(
     this will reflect it into the index.html or the output display, this index.html is loacted in the public folder.
     if we notices the point in above code we are using the get quire to get the acess of index.html file and reload the tags or content into the index.html file, 
     -->this type of function or coustimzed tags are used to in single page reload and this dirtecly get loaded into the index.html by the automation of script by the package.json filed
-    it get loaded into it. //-->
+    it get loaded into it., this render the files and load it in index.html files //-->
   </React.StrictMode>
 );
 
