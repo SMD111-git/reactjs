@@ -10,3 +10,4 @@ createRoot(document.getElementById('root')).render(
     <Chai/>
   </StrictMode>,
 )
+/**now we see that structure is <chai/><app/> it much simmilar to fun call */
