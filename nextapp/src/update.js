@@ -1,4 +1,6 @@
-function update(){
-    return(<h2>hello how are kaahan kaha ka jana javascript</h2>)
+function Update(){
+    return(
+        <h2>hello how are kaahan kaha ka jana javascript</h2>
+)
 }
-export default update;
+export default Update;

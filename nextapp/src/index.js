@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom/client';
 
 import App from './App';
 import Chai from './chai';
-import update from './update';
+import Update from './update';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));//by this quire we will access the index.html file  as the "root" is the id of the div inside the body.
 root.render(
   <React.StrictMode>
     <App />
     <Chai/>
+    <Update />
   </React.StrictMode>
 );
 /**the app is a customized tag by using file.js or jsx
