@@ -26,3 +26,4 @@ export default <App></App>
  now the key poinnt is that if then a nummber of tag inn the function but the function allow olny one but we have a way to add nummber of tag and
  to manuplaite  this vitural dom by just wrapping <></>  the whole data under this 
  */
+
