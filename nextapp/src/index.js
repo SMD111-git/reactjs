@@ -22,3 +22,5 @@ root.render(
     this type of function or coustimzed tags are used to in single page reload and this dirtecly get loaded into the index.html by the automation of script by the package.json filed
     it get loaded into it., this render the files and load it in index.html files  */
 
+//point to be noted  that the compoents or file the first letter must capital letter and inside the file or compoent the function name first letter also be capital 
+//and other export and import a the file must be capital 
