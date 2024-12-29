@@ -52,4 +52,6 @@ createRoot(document.getElementById('root')).render(
   </StrictMode>,
 )
 
+there some other methods to do for better understanding reffernces to:https://github.com/hiteshchoudhary/chai-aur-react/blob/main/01vitereact/src/main.jsx
+
 
