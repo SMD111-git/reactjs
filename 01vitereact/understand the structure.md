@@ -13,7 +13,6 @@ this elements cannot be rendered into the vitefile so , the vitefile is having i
 
 
 basics to under is that with a sample code
-'''javascript
 
 
 import { StrictMode } from 'react'
@@ -53,4 +52,4 @@ createRoot(document.getElementById('root')).render(
   </StrictMode>,
 )
 
-'''
+
