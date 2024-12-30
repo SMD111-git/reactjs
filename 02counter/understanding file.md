@@ -6,7 +6,7 @@ function App() {
     <>
      <h1>chai aur react</h1>
      <h2>counter:{counter}</h2>
-
+  )
 
 //the fulldisclouser of hook
 //the actual use of hook:Event Handling: Hooks can also be used in event-driven systems (like GUI applications or server-side systems) to register callbacks or listeners that get triggered when a specific event occurs.
