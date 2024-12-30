@@ -12,13 +12,15 @@ function App() {
 ## the fulldisclouser of hook:<br>
 the actual use of hook:Event Handling: Hooks can also be used in event-driven systems (like GUI applications or server-side systems) to register callbacks or listeners that get triggered when a specific event occurs.
 so in app.jsx file we can see a very first import statment when imports the hooks from reactfiles.
-if we see in the we create varaible const, which created varaible in a array format ,which a synatx method of using hook usestate
- below the function app(){
+if we see in the we create varaible const, which created varaible in a array format ,which a synatx method of using hook usestate below the 
+```javascript
+ function app(){
   we create the  follow synatx of hook
   const [counter,setcounter]=usestate(0)
  }
- here we see counter is varaible and setcounter is method of updation of the counter variable.
- is enchance the eventhandling if see it in app.jsx file.
+ ```
+# here we see counter is varaible and setcounter is method of updation of the counter variable.
+# is enchance the eventhandling if see it in app.jsx file.
 
 
 
