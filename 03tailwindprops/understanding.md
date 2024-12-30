@@ -33,4 +33,6 @@ content: [
 
 
 5.just run the project
-npm run dev
+
+
+''npm run dev
