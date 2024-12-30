@@ -1,6 +1,8 @@
 # To add tailwind to the file
 open the offical tailwind site: https://tailwindcss.com/
+
 then go to the docs , check for the framework guide
+
 then as per the framework (vite in this case),follow the steps to install tailwind into the file
 
 
