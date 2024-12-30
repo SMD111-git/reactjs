@@ -6,10 +6,10 @@ function App() {
     <>
      <h1>chai aur react</h1>
      <h2>counter:{counter}</h2>
-  )
 
-//the fulldisclouser of hook
-//the actual use of hook:Event Handling: Hooks can also be used in event-driven systems (like GUI applications or server-side systems) to register callbacks or listeners that get triggered when a specific event occurs.
+
+the fulldisclouser of hook
+the actual use of hook:Event Handling: Hooks can also be used in event-driven systems (like GUI applications or server-side systems) to register callbacks or listeners that get triggered when a specific event occurs.
 so in app.jsx file we can see a very first import statment when imports the hooks from reactfiles.
 if we see in the we create varaible const, which created varaible in a array format ,which a synatx method of using hook usestate
  below the function app(){
