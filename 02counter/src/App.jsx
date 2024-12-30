@@ -28,7 +28,8 @@ function App() {
       add value{counter}</button> 
      <br/> 
 
-     <button onClick={subtracevalue}>subtrace value{counter}</button>
+     <button onClick={subtracevalue}>subtrace value{counter}</button><br></br>
+     <p>footer:{counter}</p>
     </>
   )
 }
