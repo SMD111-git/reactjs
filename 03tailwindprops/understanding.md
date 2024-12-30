@@ -6,7 +6,7 @@ then go to the docs , check for the framework guide
 then as per the framework (vite in this case),follow the steps to install tailwind into the file
 
 
-1.check the file of project "cd<file>"
+1.check the file of project "cd projectfile"
 
 
 2.installing :
