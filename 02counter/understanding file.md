@@ -1,4 +1,5 @@
 so in app.jsx file we use {} inside the return statment of the function the indicates the value of the variable decleared outside.eg:counter
+```javascript
 function App() {
   let counter=15;
   
@@ -6,7 +7,7 @@ function App() {
     <>
      <h1>chai aur react</h1>
      <h2>counter:{counter}</h2>
-
+```
 
 ## the fulldisclouser of hook:<br>
 the actual use of hook:Event Handling: Hooks can also be used in event-driven systems (like GUI applications or server-side systems) to register callbacks or listeners that get triggered when a specific event occurs.
