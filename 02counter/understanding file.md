@@ -40,7 +40,7 @@ here we see counter is varaible and setcounter is method of updation of the coun
 - **Reusability**: Hooks allow code reuse by providing predefined entry points.
 
 
-______________________code app.jsx_________________________________________________
+## code app.jsx
 
 In the provided React code, **hooks** are used to manage state within a functional component. Let's break it down to explain how hooks work in this context:
 
