@@ -1,7 +1,7 @@
 import React from "react";
 function Card () {
     return(
-        <div className="max-w-xs rounded-md shadow-md bg-black text-gray-100">
+        <div className="max-w-xs rounded-md shadow-md bg-black text-gray-100 mb-4">
         <img
           src="https://source.unsplash.com/301x301/?random"
           alt=""
