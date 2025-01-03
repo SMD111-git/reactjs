@@ -10,9 +10,17 @@ function App() {
   const[Password,setPassword]=useState("")
   const passwordGenratetor=useCallback(()=>{
     let pass=""
-    let str="ABCDEFGHI"
+    let str="ABCDEFGHIJKLMNOPQRSTUVXYZabcdefghijklmnopqrstuwxyz"
     if(Numberallowed) str+="0123456789"
-    },[Lenght,CharAllowed,Numberallowed])
+    if(CharAllowed)str+="~!@#$%^&*{}()?<>?/"
+    for (let index = 0; index < array.length; index++) {
+      const element = array[index];
+      let char=Math.floor(Math.random()*str.length+1)
+      pass=str.charAt(char)
+      
+    }
+    setPassword(pass)
+    },[Lenght,CharAllowed,Numberallowed,setPassword])
 
   return (
     <>
