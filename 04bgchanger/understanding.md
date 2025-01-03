@@ -10,9 +10,8 @@ If you want the background color to persist across page reloads, you'll need to 
 Store the selected color in localStorage:
 On page load, check if there's a stored color in localStorage and set the initial state to that value.
 Here's the modified code:
+```javascript
 
-js
-Copy code
 import { useState, useEffect } from "react";
 
 function App() {
@@ -74,6 +73,7 @@ function App() {
 }
 
 export default App;
+```
 Key changes:
 Initialization from localStorage: We added the line const storedColor = localStorage.getItem("color") || "olive"; to read the previously saved color from localStorage. If nothing is stored, it defaults to "olive".
 
