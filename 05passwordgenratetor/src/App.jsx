@@ -11,7 +11,7 @@ function App() {
   const passwordGenratetor=useCallback(()=>{
     let pass=""
     let str="ABCDEFGHI"
-    if(Numberallowed) str+="012"
+    if(Numberallowed) str+="0123456789"
     },[Lenght,CharAllowed,Numberallowed])
 
   return (
