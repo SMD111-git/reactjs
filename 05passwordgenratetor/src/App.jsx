@@ -24,7 +24,14 @@ function App() {
 
   return (
     <>
-      <h1 className="text-4xl text-white text-center"></h1>
+    <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 bg-gray-100">test</div>
+    <div className='className="flex shadow rounded-lg overflow-hidden  mb-4"'><input 
+    type="text"
+    value={Password} 
+    className="outline-none w-full py-1 px-3"
+    placeholder="Password"
+    readOlny
+    /></div>
     </>
   )
 }
