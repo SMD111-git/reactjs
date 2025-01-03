@@ -6,7 +6,7 @@ When the page is refreshed, React re-renders the component and initializes the c
 const [color, setColor] = useState("olive");
 <div className="w-full h-screen duration-200" style={{backgroundColor: color}}>
 ```
-if want the color to  remains inn same statment after refreshing the page:
+# if want the color to  remains inn same statment after refreshing the page:
 If you want the background color to persist across page reloads, you'll need to save the selected color in localStorage or a similar persistent storage. Here's how you can modify your code to do that:
 
 Store the selected color in localStorage:
