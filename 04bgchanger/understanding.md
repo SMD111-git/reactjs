@@ -1,4 +1,6 @@
-why does the bg change olive color when we refresh the page.
+# note:
+use of  tailwind
+# why does the bg change olive color when we refresh the page.
 When the page is refreshed, React re-renders the component and initializes the color state to "olive", causing the background color to default to olive on page load
 ```javascript
 const [color, setColor] = useState("olive");
