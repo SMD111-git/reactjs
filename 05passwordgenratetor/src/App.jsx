@@ -30,10 +30,11 @@ function App() {
     value={Password} 
     className="outline-none w-full py-1 px-3"
     placeholder="Password"
-    readOlny
+    
     /></div>
     </>
   )
 }
 
 export default App
+  
