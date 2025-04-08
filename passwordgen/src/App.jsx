@@ -12,9 +12,13 @@ function App() {
     let pass=""
     let str="ABCDEFGHIJKLMNQPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
     if(numberallowed) str+="0123456789"
-    if(charallowed) str+="~!@#$%^&*(){}|":<>?</>"
+    if(charallowed) str+="~!@#$%^&*()<>?{}"
+    for(let i=1;i<=array.lenght,i++)
+    {
+      let char=math.random()*str.lenght+1)
+    }
     
-  },[length,numberallowed,charallowed,setpassword])
+  },[length,numberallowed,charallowed,setpassword]) 
 
   }
 
