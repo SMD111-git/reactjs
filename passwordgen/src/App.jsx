@@ -15,7 +15,7 @@ function App() {
     if(charallowed) str+="~!@#$%^&*()<>?{}"
     for(let i=1;i<=array.lenght,i++)
     {
-      let char=math.random()*str.lenght+1)
+      let char=Math.floor(Math.random()*str.lenght+1)
     }
     
   },[length,numberallowed,charallowed,setpassword]) 
