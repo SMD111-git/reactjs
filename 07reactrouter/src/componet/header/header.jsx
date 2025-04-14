@@ -65,6 +65,17 @@ export default function Header() {
                                     Conactus
                                 </NavLink>
                             </li>
+                            <li>
+                                <NavLink
+                                to="/Github"
+                                    className={({isActive}) => //the work of isActive:-
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive?"text-orange-700":"text-gray-400"}// this statment here
+                                         border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                                    Github
+                                </NavLink>
+                            </li>
                             
                             
                             

@@ -8,6 +8,7 @@ import About from './componet/About/About.jsx'
 import Home from './componet/Home/Home.jsx'
 import Contact from './componet/Contact/Contact.jsx'
 import User from './componet/User/User.jsx'
+import Github from './componet/Github/Github.jsx'
 const router=createBrowserRouter([
   {
   path:'/',
@@ -27,6 +28,10 @@ const router=createBrowserRouter([
       {
         path:"User/:Userid",
         element:<User/>
+      },
+      {
+        path:"Github",
+        element:<Github/>
       }
   ]
 }])
