@@ -5,7 +5,7 @@ import Usercontext from "../context/Usercontext";
 function Profile() {
     return (
         <div>
-            
+          Profile  
         </div>
     );
 }
