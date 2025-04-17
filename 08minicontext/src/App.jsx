@@ -9,7 +9,7 @@ function App() {
 
   return ( 
     <UserContextProvider>
-      <h1>SMD THE UPCOMING EMPIER</h1>
+      <h1>SIKE UPCOMING SOON</h1>
       <Login/>
       <Profile/>
     </UserContextProvider>
