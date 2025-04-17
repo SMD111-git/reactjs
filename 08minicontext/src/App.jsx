@@ -2,18 +2,18 @@
 import './App.css'
 import Login from './compoents/Login'
 import Profile from './compoents/Profile'
-import Usercontextprovider from './context/Usercontextprovider'
+import UserContextProvider from './context/UserContextProvider'
 
 function App() {
  
 
-  return ( // over here the file of usercontesxt is imported in to app.jsx file to handel the user deatils
-    <Usercontextprovider> 
+  return ( 
+    <UserContextProvider>
       <h1>SMD THE UPCOMING EMPIER</h1>
       <Login/>
       <Profile/>
-    </Usercontextprovider>
+    </UserContextProvider>
   )
 }
 
-export default App
+export default App // over here the file of usercontesxt is imported in to app.jsx file to handel the user deatils
