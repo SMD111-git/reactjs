@@ -1,6 +1,8 @@
-import React from 'react';
+import React,{Usercontext} from 'react';
+import Usercontext from "../context/Usercontext";
 
-function Profile(props) {
+
+function Profile() {
     return (
         <div>
             

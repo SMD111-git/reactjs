@@ -3,9 +3,10 @@ import Usercontext from '../context/Usercontext'; //importing the context file i
 function Login() {
     const [username,setUsername] = useState('')
     const [password,setpassword] = useState('')
-    const {setUser}=useContext(useContext)
-    const handelSubmit=()=>{
-
+    const {setUser}=useContext(useContext)//over here the concept is that the username and password is send to a context file ,
+    const handelSubmit=(e)=>{//where the user type's the detail that are  send to context.jsx file throught the use of setuser(prop) and eventhandel
+        e.preventDefault() //it prevent the 
+        setUser({username,password})
     }
     return (
         <div>
