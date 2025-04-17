@@ -1,4 +1,3 @@
-Absolutely! Here's a **much simpler, beginner-friendly explanation** of your app for your `README.md`, written step-by-step with easy-to-understand language:
 
 ---
 
