@@ -2,7 +2,7 @@ import React,{useState,useContext} from 'react'; //importing the hooks and compo
 import Usercontext from '../context/Usercontext'; //importing the context file in the this app.jsx
 function Login() {
     const [username,setUsername] = useState('')
-    const [password,setpassword] = useState('')
+    const [password,setpassword] = useState('')// this part of file is  all about data sending process 
     const {setUser}=useContext(useContext)//over here the concept is that the username and password is send to a context file ,
     const handelSubmit=(e)=>{//where the user type's the detail that are  send to context.jsx file throught the use of setuser(prop) and eventhandel
         e.preventDefault() //it prevent the 
