@@ -15,7 +15,7 @@ function Login() {
              value={username} //this use the state of usestate and handel the username throught the varaible usestate
              onChange={(e)=> setUsername(e.target.value)} //this code of line try's to handel the username if there is a change in username 
              placeholder='username'/>
-             {" "}
+             {"    "}
             <input type="password"
              value={password} 
              onChange={(e)=> setpassword(e.target.value)}
