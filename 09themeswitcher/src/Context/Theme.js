@@ -1,3 +1,7 @@
 import {createContext,useContext} from "react";
-const UserContext =  React.createContext()
-export default UserContext;
+
+const ThemeContext = createContext({
+    themeMode:"light",
+    darkTheme:()=>{}
+})
+export default ThemeContext
