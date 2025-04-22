@@ -11,6 +11,16 @@ function App() {
   const darkTheme=()=>{
     setThemeMode("dark")
   }
+  //actual theme change
+  useEffect(() => {
+    document.querySelector("html").classList.remove("light","dark")
+  
+    return () => {
+      document.querySelector('html').classList.add(themeMode)
+    }
+  }, [themeMode])
+  
+  
   return (
     <Themeprovider value={{themeMode,lightTheme,darkTheme}}> 
 <div className="flex flex-wrap min-h-screen items-center">
