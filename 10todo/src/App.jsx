@@ -5,7 +5,7 @@ import { Todoprovider } from './context'
 function App() {
  const [todos,setTodo] =  useState([])
   addTodo=(todo)=>{
-    setTodo((prev)=>[])
+    setTodo((prev)=>[{id: Date.now(), ...todo},...prev])
   }
 
   return (
