@@ -4,8 +4,11 @@ import { Todoprovider } from './context'
 
 function App() {
  const [todos,setTodo] =  useState([])
-  addTodo=(todo)=>{
+  const addTodo=(todo)=>{
     setTodo((prev)=>[{id: Date.now(), ...todo},...prev])
+  }
+  const updateTodo =(id,todo)=>{
+    
   }
 
   return (
