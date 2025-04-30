@@ -2,7 +2,7 @@ import React from 'react'
 import { useTodo } from '../context/TodoContext';
 
 function TodoItem({ todo }) 
-    const [, set] = useState(second)
+    const [isTodoEditable, setIsTodoEditable] = useState(false)
     const {updateTodo,deleteTodo,toggleComplete} = useTodo()
 
 
