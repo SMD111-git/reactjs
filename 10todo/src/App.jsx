@@ -17,8 +17,14 @@ function App() {
     setTodo((prev)=> prev.map((prevTodo)=>prevTodo===id ?{...prevTodo,complete:!prevTodo.complete}:prevTodo))
   }
   useEffect(() => {
-    const todo=JSON.parse(localStorage.getItem("todo"))
+    const todo=JSON.parse(localStorage.getItem("todos"))
+    if(todo&& todo.length>0){
+      setTodo(todos)
+    }
   },[] )
+  useEffect(()=>{
+    localStorage.setItem("todos",JSON.stringify(todos))
+  },[todos])
   
   return (
     <Todoprovider value={{todos,addTodo,updateTodo,deleteTodo,toggleComplete}}>
