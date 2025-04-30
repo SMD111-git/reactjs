@@ -13,8 +13,8 @@ function App() {
   const deleteTodo =(id)=>{
     setTodo((prev)=> prev.filter((todo)=>todo.id!==id))
   }
-  const toggleComplete =(id)=>{
-    setTodo
+  const toggleComplete =(id)=>{(
+    setTodo((prev)=> prev.map((prevTodo)=>prevTodo===id ?{...prevTodo,complete:!prevTodo.complete}:prevTodo))
   }
   return (
     <Todoprovider value={{todos,addTodo,updateTodo,deleteTodo,toggleComplete}}>
