@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import './App.css'
 import { Todoprovider } from './context'
 
@@ -16,6 +16,10 @@ function App() {
   const toggleComplete =(id)=>{(
     setTodo((prev)=> prev.map((prevTodo)=>prevTodo===id ?{...prevTodo,complete:!prevTodo.complete}:prevTodo))
   }
+  useEffect(() => {
+    const todo=JSON.parse(localStorage.getItem("todo"))
+  },[] )
+  
   return (
     <Todoprovider value={{todos,addTodo,updateTodo,deleteTodo,toggleComplete}}>
      <div className="bg-[#172842] min-h-screen py-8">
