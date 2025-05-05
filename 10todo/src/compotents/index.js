@@ -1,4 +1,4 @@
-import TodoFrom from "./TodoFrom";
+import TodoForm from "./TodoForm";
 import TodoItem from "./TodoItem";
 
-export{TodoFrom,TodoItem}
+export{TodoForm,TodoItem}
