@@ -14,7 +14,7 @@ export const todoSlice =createSlice({
                 id:nanoid(),
                 text:action.payload //here payload get all objects,email other things
             }
-            state.todo.push(todo)
+            state.todos.push(todo)
         },
         removeTodo:()=>{}
     } //reducers includes prptery and functions
