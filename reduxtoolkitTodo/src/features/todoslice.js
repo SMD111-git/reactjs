@@ -16,6 +16,15 @@ export const todoSlice =createSlice({
             }
             state.todos.push(todo)
         },
-        removeTodo:()=>{}
+        removeTodo:(state,action)=>{
+             state.todos=state.todos.filter((todo)=>todo.id!==action.payload)
+        },
+        updateTodo:(state,action)=>{ //the update 
+            state.todos=state.todos.map((todo)=>todo.id===action.payload.id ? { ...todo, text: action.payload.text }: todo)
+        }
+        
     } //reducers includes prptery and functions
+
 })
+export const {addtodo,removeTodo,updateTodo} = todoSlice.actions //this is called by indivially to get used in compoents
+export default todoSlice.reducer //this line of code this  whole reducer propites or methods  are listed go get used in store.js
