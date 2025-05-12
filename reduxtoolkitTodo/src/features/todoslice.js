@@ -9,7 +9,7 @@ export const todoSlice =createSlice({
     name:'todo',
     initialState,
     reducers:{
-        addtodo:(state,action)=>{
+        addTodo:(state,action)=>{
             const todo={ //this todo is created , to updaate the state
                 id:nanoid(),
                 text:action.payload //here payload get all objects,email other things
