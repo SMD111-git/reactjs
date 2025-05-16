@@ -1,12 +1,14 @@
 import React from 'react'
-import { useSelector , useDispatch } from 'react-redux'
-import {removeTodo} from  '../features/todoslice'
-function Todo() { 
-  const todos=useSelector((state=>state.todos)
-  const dispatch=useDispatch(
-    return(
-      <>
-       <div>Todos</div>
+import { useSelector, useDispatch } from 'react-redux'
+import {removeTodo} from '../features/todoslice'
+
+function Todos() {
+    const todos = useSelector(state => state.todos)
+    const dispatch = useDispatch()
+
+  return (
+    <>
+    <div>Todos</div>
     <ul className="list-none">
         {todos.map((todo) => (
           <li
@@ -36,10 +38,8 @@ function Todo() {
           </li>
         ))}
       </ul>
-      </>
-    )
+    </>
   )
-
 }
 
-export default Todo
+export default Todos
