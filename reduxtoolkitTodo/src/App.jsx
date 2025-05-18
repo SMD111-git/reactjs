@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import AddTodo from './compontent/AddTodo'
+import Todos from './compontent/Todos'
 
 function App() {
   
@@ -11,7 +12,7 @@ function App() {
     <>
       <h1>reduxtoolkit</h1>
       <AddTodo/>
-      <todos/>
+      <Todos.jsx/>
     </>
   )
 }

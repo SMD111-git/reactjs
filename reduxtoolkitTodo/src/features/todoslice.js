@@ -26,5 +26,5 @@ export const todoSlice =createSlice({
     } //reducers includes prptery and functions
 
 })
-export const {addtodo,removeTodo,updateTodo} = todoSlice.actions //this is called by indivially to get used in compoents
+export const {addTodo,removeTodo,updateTodo} = todoSlice.actions //this is called by indivially to get used in compoents
 export default todoSlice.reducer //this line of code this  whole reducer propites or methods  are listed go get used in store.js
