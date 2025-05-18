@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import {useDispatch} from 'react-redux'
-import{addTodo} from '../features/todoslice'
+import{addTodo} from '../features/todo/todoslice'
 //for addtodo as it requires to add a task init or store we need use dispatch
 function AddTodo() {
     const [input,setInput] =useState('')

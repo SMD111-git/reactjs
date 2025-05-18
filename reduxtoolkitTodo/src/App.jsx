@@ -12,7 +12,7 @@ function App() {
     <>
       <h1>reduxtoolkit</h1>
       <AddTodo/>
-      <Todos.jsx/>
+      <Todos/>
     </>
   )
 }
