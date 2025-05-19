@@ -3,7 +3,7 @@
 import './App.css'
 
 function App() {
-  console.log(import.meta.env.VITE_APPWRITE_URL);
+  console.log(import.meta.env.VITE_APPWRITE_URL); //this method to access the varaible or other cerditional from .env  file
   
   
 
