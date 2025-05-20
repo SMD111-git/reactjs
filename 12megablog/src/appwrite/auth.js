@@ -14,9 +14,11 @@ export class AuthService{
         try {
             const userAccount = await this.account.create(ID.unique(),email,password,name);
             if (userAccount) {
-                return userAccount;
+                //call another method
+
+                
             } else {
-                return 
+                return serAccount;
             }
         } catch (error) {
             throw error;
