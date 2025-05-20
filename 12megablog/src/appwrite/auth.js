@@ -24,6 +24,13 @@ export class AuthService{
             throw error;
         }
     }
+    async login({email,password}){
+        try {
+            await this.account.createEmailSession(email,password);
+        } catch (error) {
+            throw error;
+        }
+    }
 }
 const authService= new AuthService();
 export default authService
