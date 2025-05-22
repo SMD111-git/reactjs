@@ -1,4 +1,4 @@
-import config from '../config.js';
+import config from '../config/config.js'
 import{Client,ID,Databases,Storage,Query} from "appwrite";
 
 export class Service {
@@ -18,7 +18,8 @@ export class Service {
             return await this.databases.createDocument(
                 config.appwriteDatabaseID,
                 config.appwriteCollectionID,
-                slug{
+                slug,
+                {
                     title,
                     content,
                     featuredImage,
