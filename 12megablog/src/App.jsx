@@ -25,17 +25,17 @@ function App() {
   
   
 
-  return !loading ?(
-    <div className='min-h-screen flex- flex-warp content-between bg-gary-400'>
+ return !loading ? (
+    <div className='min-h-screen flex flex-wrap content-between bg-gray-400'>
       <div className='w-full block'>
-        <Headers/>
+        <Header />
         <main>
-          TODO:{/*<Outlet/>*/}
+        TODO:  <Outlet />
         </main>
-        <Footer/>
+        <Footer />
       </div>
     </div>
-  ): (null)
+  ) : null
 }
 
 export default App
