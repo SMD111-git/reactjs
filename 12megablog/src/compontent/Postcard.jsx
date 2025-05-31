@@ -1,6 +1,7 @@
 import React from 'react'
 import appwriteService from '../appwrite/conf'
 import {Link} from'react-router-dom'
+
 function Postcard({$id,title,featuredimage}) {
   return (
     <link to={`/post/{$id}`}>
