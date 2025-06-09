@@ -54,7 +54,7 @@ function Login() {
                 type="email"
                 {...register("email", {
                     required: true,
-                    validate: {
+                    validate: {//over here they check the email is vrified by regex method
                         matchPatern: (value) => /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(value) ||
                         "Email address must be a valid address",
                     }
