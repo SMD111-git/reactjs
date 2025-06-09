@@ -1,4 +1,4 @@
-const conf={
+const config={
     appwriteUrl:String(import.meta.env.VITE_APPWRITE_URL),
     appwriteProjectID:String(import.meta.env.VITE_Project_ID),
     appwriteDatabaseID:String(import.meta.env.VITE_Database_ID),
@@ -8,4 +8,4 @@ const conf={
 }//so in this file we will acess the env varaibles , by parsing them into string and holding it into a varaible , so this file is good togo with variable of env
 
 
-export default conf
+export default config
