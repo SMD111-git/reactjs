@@ -64,7 +64,7 @@ function Login() {
                 label="Password: "
                 type="password"
                 placeholder="Enter your password"
-                {...register("password", {
+                {...register("password", { //regsiter is event from the usefrom within input.jsx file
                     required: true,
                 })}
                 />
