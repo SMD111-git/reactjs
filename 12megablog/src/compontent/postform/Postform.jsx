@@ -6,7 +6,7 @@ import appwriteService from '../../appwrite/conf'
 import { data, useNavigate } from "react-router-dom"
 import { useSelector } from "react-redux"
 function PostForm({post}) {
-    const {register,handleSubmit,watch,setValue,getValues }=useForm({
+    const {register,handleSubmit,watch,setValue,control,getValues }=useForm({
         defaultValues:{
             title:post?.title||'',
             slug: post?.$id || "",
@@ -32,9 +32,34 @@ function PostForm({post}) {
         }
        }
         else{
-          const file =
+          const file =await appwriteService.uploadfile(data.image[0]);
+          if (file) {
+            const fileTd=file.$id
+            data.featuredImage=fileId
+            const dbPost=await appwriteService.createpost({
+              ...data,
+              userId:userData.$id,
+
+            })
+            if(dbPost){
+              navigate('/post/${dbPost.id}')
+            }
+          }
         }
-    }
+    };
+      const slugTransform = useCallback((value) => {
+        if (value && typeof value === "string")
+            return value
+                .trim()
+                .toLowerCase()
+                .replace(/[^a-zA-Z\d\s]+/g, "-")
+                .replace(/\s/g, "-");
+
+        return "";
+    }, []);
+    React.useEffect(()=>{
+      
+    })
   return (
     <div>Postform</div>
   )
