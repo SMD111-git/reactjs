@@ -9,6 +9,7 @@ import LogoutBtn from "./Header/LogoutBtn";
 import Signup from "./Signup";
 import Login  from "./Login";
 import PostFrom from "./postform/PostForm"
+import Postcard from'./Postcard'
 export{
     Header,
     Footer,
@@ -20,6 +21,7 @@ export{
     RTE,
     Signup,
     Login,
-    PostFrom
+    PostFrom,
+    Postcard
     
 }
