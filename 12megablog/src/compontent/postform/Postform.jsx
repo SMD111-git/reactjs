@@ -59,7 +59,7 @@ function PostForm({post}) {
     }, []);
     React.useEffect(()=>{
       
-    })
+    },[watch,slugTransform,setValue])
   return (
     <div>Postform</div>
   )
