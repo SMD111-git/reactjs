@@ -8,6 +8,7 @@ import RTE from "./RTE";
 import LogoutBtn from "./Header/LogoutBtn";
 import Signup from "./Signup";
 import Login  from "./Login";
+import PostFrom from "./postform/PostForm"
 export{
     Header,
     Footer,
@@ -18,6 +19,7 @@ export{
     Input,
     RTE,
     Signup,
-    Login
+    Login,
+    PostFrom
     
 }
