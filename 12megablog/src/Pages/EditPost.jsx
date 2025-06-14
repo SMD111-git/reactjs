@@ -2,7 +2,7 @@ import React from 'react'
 import { Container,PostFrom } from '../compontent'
 import { useState,useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import AppwriteService from 'appwrite'
+import AppwriteService from '../appwrite/conf'
 function EditPost() {
     const [post,setPosts] =useState(null)
     const{slug}=useParams() //?ehat is this
